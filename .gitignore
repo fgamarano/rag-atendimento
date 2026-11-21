@@ -1,0 +1,17 @@
+# Ambiente virtual e dependências instaladas
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Segredos: nunca versionar chaves de API
+.env
+*.key
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
